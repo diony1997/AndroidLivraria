@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appga">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_pepe"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Cadastro.Formulario_Livros"></activity>
+        <activity android:name=".Cadastro.Cad_Livros" />
+        <activity android:name=".Cadastro.Formulario_Leitores" />
+        <activity android:name=".Cadastro.Cad_Leitor" />
+        <activity android:name=".Cadastro.Cad_CategoriaLeitor" />
+        <activity android:name=".Cadastro.Formulario_CatLeitores" />
+        <activity android:name=".Cadastro.Formulario_CatLivros" />
+        <activity android:name=".Cadastro.Cad_CategoriaLivro" />
+        <activity android:name=".Tela_Consulta" />
+        <activity android:name=".Cadastro.Tela_cadastro" />
+        <activity android:name=".Tela_principal" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

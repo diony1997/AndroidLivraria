@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Biblioteca</string>
+    <string name="StringSenha">Senha</string>
+    <string name="StringConsulta">Consulta</string>
+    <string name="StringCadastro">Cadastro</string>
+</resources>
